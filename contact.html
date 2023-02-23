@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single Post</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="singlePost.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <header> 
@@ -20,12 +20,17 @@
             <a href="./contact.html">CONTACT</a>
         </nav>
     </header>
-    <div class="gridContainer">
-        <h1>GALLERY SINGLE POST</h1>
-        <!-- //image goes here// -->
-        <img src="" alt="">
-        <h1>PRIM AND PROPER</h1>
-        <p>This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. Want an easier solution for a Free Website? Head straight to Wix and immediately start customizing your website!</p>
+    <div class="container">
+        <h1>LET'S KEEP IN TOUCH</h1>
+        <form action="">
+        <input type="text" name="nameBox" id="nameBox" placeholder="NAME" class="text">
+        <input type="text" name="addressBox" id="addressBox" placeholder="ADDRESS" class="text">
+        <input type="email" name="emailBox" id="emailBox" placeholder="EMAIL" class="text">
+        <input type="number" name="numberBox" id="numberBox" placeholder="PHONE NUMBER" class="text">
+        <input type="text" name="messageBox" id="messageBox" placeholder="MESSAGE" class="text">
+        <!-- //add hover function to this button or in CSS?// -->
+        <button type="button" onclick="submitForm()">Send</button>
+        </form>
     </div>
     <footer>
         <span> &copy; 2023 by Paola's Salon. All rights reserved.</span>  
