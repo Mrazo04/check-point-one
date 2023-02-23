@@ -3,10 +3,6 @@ body{
     width: 100vw;
 }
 
-.gridContainer{
-display: grid;
-grid-template-rows: 60% 40%;
-}
 /* \\everything within header\\ */
 
 header{
@@ -34,14 +30,83 @@ a{
     text-decoration: none;
 }
 
+.gridContainer{
+    display: grid;
+    grid-template-rows: 60% 40%;
+    position: relative;
+    }
+
 img#backgroundPicture{
     height: 558pt;
     width: 100vw;
+    grid-row: 1/2;
+}
+
+p.imageText{
+    grid-row: 1/2;
+    position: absolute;
+}
+
+#white{
+    padding-top: 8%;
+    padding-left: 50%;
+}
+
+#black{
+    padding-top: 10%;
+    padding-left: 50%;
+}
+
+#black2{
+    padding-top: 12%;
+    padding-left: 50%;
+}
+
+#black3{
+    padding-top: 14%;
+    padding-left: 50%;
+}
+
+button{
+    grid-row: 1/2;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 50%;
 }
 
 .bottomRow{
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    margin-top: 20pt;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    padding-left: 355pt;
+}
+
+.middle{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    padding-left: 355pt;
+}
+
+.right{
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+img.showCase{
+    height: 100pt;
+    width: 100pt;
+    border: 5px solid white;
 }
 
 ul{
