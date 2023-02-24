@@ -110,8 +110,8 @@ button{
     width: 130px;
 }
 
-/* This bottom row is the bottom row of the grid.
-It contains the 4 displayed pictures with picture names */
+/* This .bottomRow is the bottom row of the grid.
+It contains the 3 displayed pictures with picture names */
 
 .bottomRow{
     display: grid;
@@ -119,6 +119,7 @@ It contains the 4 displayed pictures with picture names */
     margin-top: 41pt;
 }
 
+/* Picture with text allignment */
 section{
     display: flex;
     flex-direction: column;
@@ -126,18 +127,21 @@ section{
     gap: 35px;
 }
 
+/* .left is BLONDES */
 .left{
     grid-row: 2/3;
     grid-column: 1/2;
     padding-left: 348pt;
 }
 
+/* .middle is BRUNETTES */
 .middle{
     grid-row: 2/3;
     grid-column: 2/3;
     padding-left: 148pt;
 }
 
+/* .right is WILD ONES */
 .right{
     grid-row: 2/3;
     grid-column: 3/4;
@@ -164,9 +168,23 @@ section p{
     padding-left: 89px;
 }
 
+/* Below is all footer design */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 57px 0 42px;
+    background-color: #f2f2f0;
+    width: 100vw;
+}
+
+span{
+    padding-left: 429px;}
+
 ul{
     display: flex;
-
+    padding-right: 362px;
+    gap: 20px;
 }
 
 li.twitter {
@@ -182,14 +200,14 @@ li.facebook{
     background: url(https://freewebsitetemplates.com/preview/mustacheenthusiast/images/icons.jpg) no-repeat 0 0;
     height:  44px;
     width: 44px;
-    background-position: 0 -45px;
+    background-position: 0 -44px;
 }
 
 li.google {
     background: url(https://freewebsitetemplates.com/preview/mustacheenthusiast/images/icons.jpg) no-repeat 0 0;
     height:  44px;
     width: 44px;
-    background-position: 0 -90px;
+    background-position: 0 -88px;
 }
 
 
@@ -197,5 +215,5 @@ li.pinterest{
     background: url(https://freewebsitetemplates.com/preview/mustacheenthusiast/images/icons.jpg) no-repeat 0 0;
     height:  44px;
     width: 44px;
-    background-position: 0 -134px;
+    background-position: 0 -132px;
 }
