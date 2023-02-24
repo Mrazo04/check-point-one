@@ -30,13 +30,15 @@ a{
     text-decoration: none;
 }
 
+/* This is the grid in page  */
 .gridContainer{
     display: grid;
     grid-template-rows: 60% 40%;
     position: relative;
     }
 
-img#backgroundPicture{
+/* This is main picture and the wording displayed on top of picture */
+    img#backgroundPicture{
     height: 558pt;
     width: 100vw;
     grid-row: 1/2;
@@ -108,39 +110,58 @@ button{
     width: 130px;
 }
 
+/* This bottom row is the bottom row of the grid.
+It contains the 4 displayed pictures with picture names */
+
 .bottomRow{
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    margin-top: 20pt;
+    margin-top: 41pt;
 }
 
 section{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 35px;
 }
 
 .left{
     grid-row: 2/3;
     grid-column: 1/2;
-    padding-left: 355pt;
+    padding-left: 348pt;
 }
 
 .middle{
     grid-row: 2/3;
     grid-column: 2/3;
-    padding-left: 355pt;
+    padding-left: 148pt;
 }
 
 .right{
     grid-row: 2/3;
     grid-column: 3/4;
+    margin-left: -71px;
 }
 
+/* This is size and border for display pictures */
 img.showCase{
-    height: 100pt;
-    width: 100pt;
-    border: 5px solid white;
+    height: 230pt;
+    width: 250pt;
+    border: 2px solid #f2f2f0;
+}
+
+/* This is font, size, and allignment of text under display pictures */
+section p{
+    font-family: 'Gloock', serif;
+    font-size: 25px;
+    padding-left: 73px;
+    letter-spacing: 5px;
+}
+
+.left p{
+    width: 200px;
+    padding-left: 89px;
 }
 
 ul{
