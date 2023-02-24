@@ -1,5 +1,59 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 216pt;
+}
+
+img#salonLogo{
+    height: 153pt;
+    width: 427pt;
+    margin-top: 14pt;
+}
+
+nav{
+    word-spacing: 32px;
+    margin-top: 6pt;
+    margin-left: 21pt;
+}
+
+a{
+    font-family: 'Gloock', serif;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 57px 0 42px;
+    background-color: #f2f2f0;
+    width: 100vw;
+}
+
+span{
+    padding-left: 429px;
+}
+
 ul{
     display: flex;
+    padding-right: 362px;
+    gap: 20px;
 }
 
 li.twitter {
