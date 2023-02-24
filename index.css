@@ -96,8 +96,16 @@ p.imageText{
 button{
     grid-row: 1/2;
     position: absolute;
-    margin-top: 28%;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    padding-left: 5pt;
+    margin-top: 26%;
     margin-left: 50%;
+    color: #fff;
+    background-color: #FFBF00;
+    border-color: #FFBF00;
+    height: 60px;
+    width: 130px;
 }
 
 .bottomRow{
