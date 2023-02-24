@@ -3,6 +3,7 @@ body{
     width: 100vw;
 }
 
+/* \\everything within header\\ */
 header{
     display: flex;
     flex-direction: column;
@@ -29,14 +30,53 @@ a{
 }
 
 
+/* Everything within the Grid Container is here */
+.gridContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    height: 66px;
+    width: 575px;
+    font-size: 50px;
+    margin-top: 10pt;
+    padding: 21px 6px 0 64px;
+    font-family: 'Gloock', serif;
+}
+
+img{
+    margin-top: 30px;
+    height: 367px;
+    width: 716px;
+    border: 3px solid #f2f2f0;
+}
+
+/* text below the image */
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 550px;
+    text-align: center;
+}
+
+h2{
+    font-size: 25px;
+    padding-top: 20pt;
+}
+
+p{
+    padding-top: 5pt;
+    line-height: 18pt;
+}
 
 
-
-
-
-
-
-
+/* Below is all footer design */
 footer{
     display: flex;
     justify-content: space-between;
