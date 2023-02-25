@@ -1,5 +1,132 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* \\everything within header\\ */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 216pt;
+}
+
+img#salonLogo{
+    height: 153pt;
+    width: 427pt;
+    margin-top: 14pt;
+}
+
+nav{
+    word-spacing: 32px;
+    margin-top: 6pt;
+    margin-left: 21pt;
+}
+
+a{
+    font-family: 'Gloock', serif;
+    color: black;
+    text-decoration: none;
+}
+
+/* Below is everything within gridContainer */
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    height: 66px;
+    width: 250px;
+    font-size: 50px;
+    margin-left: 35pt;
+    padding: 15px 6px 0 32px;
+    font-family: 'Gloock', serif; 
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+section{
+    display: grid;
+    margin-top: 110px;
+    margin-left: 419px;
+    gap: 20px;
+}
+
+section img{
+    height: 230pt;
+    width: 250pt;
+    border: 3px solid #f2f2f0;
+}
+
+#one{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#two{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+#three{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+#four{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#five{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+#six{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+#seven{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+#eight{
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+#nine{
+    grid-column: 4/5;
+    grid-row: 4/5;
+
+}
+
+/* Below is all footer design */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 57px 0 42px;
+    background-color: #f2f2f0;
+    width: 100vw;
+}
+
+span{
+    padding-left: 429px;
+}
+
 ul{
     display: flex;
+    padding-right: 362px;
+    gap: 20px;
 }
 
 li.twitter {
