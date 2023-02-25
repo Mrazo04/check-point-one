@@ -30,13 +30,13 @@ a{
 }
 
 /* Below is everything within gridContainer */
-
+/* 5 columns and 4 rows */
 .gridContainer{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 25% 25% 25% 25%;
 }
-
+/* GALLERY text */
 h1{
     background-color: black;
     color: white;
@@ -50,6 +50,7 @@ h1{
     grid-row: 1/2;
 }
 
+/* below is the code for the positioning of the images */
 section{
     display: grid;
     margin-top: 110px;

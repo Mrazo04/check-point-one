@@ -1,14 +1,114 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* \\everything within header\\ */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 216pt;
+}
+
+img#salonLogo{
+    height: 153pt;
+    width: 427pt;
+    margin-top: 14pt;
+}
+
+nav{
+    word-spacing: 32px;
+    margin-top: 6pt;
+    margin-left: 21pt;
+}
+
+a{
+    font-family: 'Gloock', serif;
+    color: black;
+    text-decoration: none;
+}
+
+/* text and image allignment */
+h1{
+    grid-row: 1/2;
+    background-color: black;
+    color: white;
+    height: 66px;
+    width: 183px;
+    font-size: 50px;
+    margin-left: 634pt;
+    padding: 14px 6px 0 43px;
+    font-family: 'Gloock', serif; 
+}
+
+section{
+    display: flex;
+    border: 2px solid #f2f2f0;
+    width: 855px;
+    margin-top: 30px;
+    margin-left: 519px;
+    padding-right: 20px;
+}
+
+section img{
+    height: 279px;
+    border: 2px solid #f2f2f0;
+}
+
+.text{
+    width: 600px;  
+    margin-top: 40px;
+    text-align: center; 
+ }
+
+ p.title{
+    font-weight: bold;
+    font-size: 30px;
+ }
+
+ p.innerText{
+    margin-top: 20px;
+    margin-left: 27px;
+    line-height: 25px;
+ }
+
+ button{
+    margin-top: 32px;
+    color: #fff;
+    background-color: #FFBF00;
+    border-color: #FFBF00;
+    height: 41px;
+    width: 118px;
+ }
+
+/* Below is all footer design */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 57px 0 42px;
+    background-color: #f2f2f0;
+    width: 100vw;
+}
+
+span{
+    padding-left: 429px;
+}
+
 ul{
     display: flex;
+    padding-right: 362px;
+    gap: 20px;
 }
 
 li.twitter {
     background: url(https://freewebsitetemplates.com/preview/mustacheenthusiast/images/icons.jpg) no-repeat 0 0;
-        height:  44px;
-        width: 44px;
-        margin: 0;
-        padding: 0;
-        text-indent: -99999px;
+    height:  44px;
+    width: 44px;
+    margin: 0;
+    padding: 0;
+    text-indent: -99999px;
 }
 
 li.facebook{
