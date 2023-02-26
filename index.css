@@ -350,7 +350,7 @@ li.pinterest{
     
 }
 
-@media (max-width: 800px ) {
+@media (min-width: 800px ) {
     /* This is the grid */    
     /* This is main picture and the wording displayed on top of picture */
     
@@ -477,4 +477,136 @@ li.pinterest{
         width: 40px;
     }
 
+}
+
+@media (min-width: 1200px) {
+    img#backgroundPicture{
+        height: 558pt;
+        width: 100vw;
+        grid-row: 1/2;
+    }
+    
+    p.imageText{
+        grid-row: 1/2;
+        position: absolute;
+        font-family: 'Gloock', serif;
+        font-size: 20px;
+    }
+    
+    #white{
+        margin-top: 64px;
+        margin-left: 50%;
+        height: 44px;
+        width: 425px;
+        font-size: 30px;
+        padding-top: 18pt;
+        padding-left: 24pt;
+    }
+    
+    #black{
+        margin-top: 149px;
+        margin-left: 50%;
+        height: 34px;
+        width: 472px;
+        padding-top: 7pt;
+        padding-left: 13pt;
+    }
+    
+    #black2{
+        margin-top: 201px;
+        margin-left: 50%;
+        height: 33px;
+        width: 437px;
+        padding-top: 7pt;
+        padding-left: 13pt;
+    }
+    
+    #black3{
+        margin-top: 251px;
+        margin-left: 50%;
+        height: 31px;
+        width: 332px;
+        padding-top: 7pt;
+        padding-left: 13pt;
+    }
+
+    button{
+        grid-row: 1/2;
+        position: absolute;
+        padding-top: 5pt;
+        padding-bottom: 5pt;
+        padding-left: 5pt;
+        margin-top: 26%;
+        margin-left: 50%;
+        height: 60px;
+        width: 130px;
+    }
+
+    .bottomRow{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        margin-top: 41pt;
+    }
+    
+    /* Picture with text allignment */
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 35px;
+    }
+    
+    /* .left is BLONDES */
+    .left{
+        grid-row: 2/3;
+        grid-column: 1/2;
+        padding-left: 30pt;
+    }
+    
+    /* .middle is BRUNETTES */
+    .middle{
+        grid-row: 2/3;
+        grid-column: 2/3;
+        padding-left: 27pt;
+    }
+    
+    /* .right is WILD ONES */
+    .right{
+        grid-row: 2/3;
+        grid-column: 3/4;
+        margin-left: 25px;
+    }
+    
+    /* This is size and border for display pictures */
+    img.showCase{
+        height: 230pt;
+        width: 250pt;
+        border: 2px solid #f2f2f0;
+    }
+    
+    /* This is font, size, and allignment of text under display pictures */
+    section p{
+        font-family: 'Gloock', serif;
+        font-size: 25px;
+        padding-left: 73px;
+        letter-spacing: 5px;
+    }
+    
+    .left p{
+        width: 200px;
+        padding-left: 89px;
+    }
+
+    footer {
+        margin-top: 133px;
+    }
+
+    span {
+        padding-left: 174px;
+    }
+
+    ul {
+        margin-right: 220px;
+        gap: 18px;
+    }
 }
