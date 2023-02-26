@@ -176,6 +176,7 @@ footer{
     padding: 57px 0 42px;
     background-color: #f2f2f0;
     width: 100vw;
+
 }
 
 span{
@@ -217,4 +218,212 @@ li.pinterest{
     height:  44px;
     width: 44px;
     background-position: 0 -132px;
+}
+
+@media (max-width: 576px) {
+    body{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    /* \\everything within header\\ */
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 216pt;
+    }
+    
+    img#salonLogo{
+        height: 153pt;
+        width: 427pt;
+        margin-top: 14pt;
+    }
+    
+    nav{
+        word-spacing: 32px;
+        margin-top: 6pt;
+        margin-left: 21pt;
+    }
+    
+    a{
+        font-family: 'Gloock', serif;
+        color: black;
+        text-decoration: none;
+    }
+    
+    /* This is the grid in page  */
+    .gridContainer{
+        display: grid;
+        grid-template-rows: 60% 40%;
+        position: relative;
+        }
+    
+    /* This is main picture and the wording displayed on top of picture */
+        img#backgroundPicture{
+        height: 458pt;
+        width: 100vw;
+        grid-row: 1/2;
+    }
+    
+    p.imageText{
+        grid-row: 1/2;
+        position: absolute;
+        font-family: 'Gloock', serif;
+        font-size: 18px;
+    }
+    
+    #white{
+        margin-top: 31px;
+        margin-left: 93px;
+        height: 44px;
+        width: 402px;
+        font-size: 30px;
+        padding-top: 18pt;
+        padding-left: 15pt;
+    }
+    
+    #black{
+        margin-top: 112px;
+        margin-left: 60px;
+        height: 31px;
+        width: 436px;
+        padding-top: 7pt;
+        padding-left: 16pt;
+    }
+    
+    #black2{
+        margin-top: 162px;
+        margin-left: 102px;
+        height: 33px;
+        width: 398px;
+        padding-top: 7pt;
+        padding-left: 13pt;
+    }
+    
+    #black3{
+        margin-top: 210px;
+        margin-left: 193px;
+        height: 31px;
+        width: 307px;
+        padding-top: 8pt;
+        padding-left: 13pt;
+    }
+    
+    button{
+        padding-top: 5pt;
+        padding-bottom: 5pt;
+        padding-left: 6pt;
+        margin-top: 288px;
+        margin-left: 335px;
+        height: 45px;
+        width: 131px;
+    }
+    
+    /* This .bottomRow is the bottom row of the grid.
+    It contains the 3 displayed pictures with picture names */
+    
+    .bottomRow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -187pt;
+    /* grid-template-columns: 33% 33% 33%;
+        margin-top: 41pt; */
+    }
+    
+    /* Picture with text allignment */
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 13px;
+        }
+    
+    /* .left is BLONDES */
+    .left{
+        padding-left: 0px;
+    }
+    
+    /* .middle is BRUNETTES */
+    .middle{
+        padding-left: 0px;
+    }
+    
+    /* .right is WILD ONES */
+    .right{
+        margin-left: 0px;
+    }
+    
+    /* This is size and border for display pictures */
+    img.showCase{
+        height: 230pt;
+        width: 250pt;
+        border: 2px solid #f2f2f0;
+        margin-top: 38px;
+        }
+    
+    /* This is font, size, and allignment of text under display pictures */
+    section p{
+        font-family: 'Gloock', serif;
+        font-size: 20px;
+        padding-left: 73px;
+        letter-spacing: 5px;
+    }
+    
+    .left p{
+        width: 200px;
+        padding-left: 89px;
+    }
+    
+    /* Below is all footer design */
+    footer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 364px;
+        padding: 57px 0 42px;
+        background-color: #f2f2f0;
+        width: 100vw;
+    }
+    
+    span{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    
+    ul{
+        display: flex;
+        padding-right: 0px;
+        margin-right: 22px;
+        gap: 9px;
+    }
+
+    li.twitter {
+            height:  40px;
+            width: 40px;
+            margin: 0;
+            padding: 0;
+            text-indent: -99999px;
+    }
+    
+    li.facebook{
+        height:  40px;
+        width: 40px;
+        background-position: 0 -44px;
+    }
+    
+    li.google {
+        height:  40px;
+        width: 40px;
+        background-position: 0 -88px;
+    }
+    
+    
+    li.pinterest{
+        height:  40px;
+        width: 40px;
+        background-position: 0 -132px;
+    }
+    
 }
