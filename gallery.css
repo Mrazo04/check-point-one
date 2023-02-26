@@ -214,7 +214,7 @@ li.pinterest{
 }
 
 @media(min-width:800px){
-    
+
     h1 {
         margin-left: -41pt;
     }
@@ -242,4 +242,20 @@ li.pinterest{
         margin-right: 71px;
         gap: 9px;
     }
+}
+
+@media(min-width:1500px){
+    h1 {
+        margin-left: 13pt;
+    }
+
+    section img{
+        height: 230pt;
+        width: 250pt;
+    }
+    
+    section {
+        margin-left: 207px;
+    }
+
 }
