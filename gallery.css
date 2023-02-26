@@ -192,8 +192,8 @@ li.pinterest{
     }
 
     li.twitter {
-            height:  40px;
-            width: 40px;
+    height:  40px;
+    width: 40px;
     }
     
     li.facebook{
@@ -210,5 +210,36 @@ li.pinterest{
     li.pinterest{
         height:  40px;
         width: 40px;
+    }
+}
+
+@media(min-width:800px){
+    
+    h1 {
+        margin-left: -41pt;
+    }
+
+    section img{
+        height: 122pt;
+        width: 132pt;
+    }
+    
+    section {
+        margin-left: 92px;
+    }
+
+    footer{
+        margin-top: 164px;        
+    }
+    
+    span{
+        padding-top: 10px;
+        padding-left: 71px;
+    }
+    
+    ul{
+        padding-right: 0px;
+        margin-right: 71px;
+        gap: 9px;
     }
 }
