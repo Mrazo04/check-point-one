@@ -225,3 +225,42 @@ li.pinterest{
             width: 606px;
         }
         }
+
+@media(min-width:1500px){
+    h1{
+        background-color: black;
+        color: white;
+        height: 66px;
+        width: 575px;
+        font-size: 50px;
+        margin-top: 10pt;
+        padding: 21px 6px 0 64px;
+        font-family: 'Gloock', serif;
+    }
+    
+    .gridContainer img{
+        margin-top: 30px;
+        height: 367px;
+        width: 716px;
+        border: 3px solid #f2f2f0;
+    }
+
+    h2{
+        font-size: 25px;
+        padding-top: 20pt;
+    }
+
+    p{
+        padding-top: 10pt;
+    }
+
+    span{
+        padding-left: 429px;
+    }
+    
+    ul{
+        display: flex;
+        padding-right: 362px;
+        gap: 20px;
+    }
+}
