@@ -349,3 +349,132 @@ li.pinterest{
     }
     
 }
+
+@media (max-width: 800px ) {
+    /* This is the grid */    
+    /* This is main picture and the wording displayed on top of picture */
+    
+    p.imageText{
+        font-size: 18px;
+    }
+    
+    #white{
+        margin-top: 31px;
+        margin-left: 333px;
+        width: 402px;
+        font-size: 30px;
+        padding-top: 18pt;
+        padding-left: 15pt;
+    }
+    
+    #black{
+        margin-top: 112px;
+        margin-left: 298px;
+        height: 31px;
+        width: 436px;
+        padding-left: 16pt;
+    }
+    
+    #black2{
+        margin-top: 162px;
+        margin-left: 340px;
+        width: 398px;
+        padding-top: 7pt;
+        padding-left: 13pt;
+    }
+    
+    #black3{
+        margin-top: 210px;
+        margin-left: 429px;
+        width: 307px;
+        padding-top: 8pt;
+    }
+    
+    button{
+        padding-left: 6pt;
+        margin-top: 288px;
+        margin-left: 620px;
+        height: 45px;
+        width: 131px;
+    }
+    
+    /* This .bottomRow is the bottom row of the grid.
+    It contains the 3 displayed pictures with picture names */
+    
+    .bottomRow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -187pt;
+    /* grid-template-columns: 33% 33% 33%;
+        margin-top: 41pt; */
+    }
+    
+    /* Picture with text allignment */
+    section{
+        gap: 13px;
+        }
+    
+    /* .left is BLONDES */
+    .left{
+        padding-left: 0px;
+    }
+    
+    /* .middle is BRUNETTES */
+    .middle{
+        padding-left: 0px;
+    }
+    
+    /* .right is WILD ONES */
+    .right{
+        margin-left: 0px;
+    }
+    
+    /* This is size and border for display pictures */
+    img.showCase{
+        margin-top: 38px;
+        }
+    
+    /* This is font, size, and allignment of text under display pictures */
+    section p{
+        font-size: 20px;
+    }
+        
+    /* Below is all footer design */
+    footer{
+        margin-top: 364px;
+    }
+    
+    span{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    
+    ul{
+        padding-right: 0px;
+        margin-right: 22px;
+        gap: 9px;
+    }
+
+    li.twitter {
+            height:  40px;
+            width: 40px;
+    }
+    
+    li.facebook{
+        height:  40px;
+        width: 40px;
+    }
+    
+    li.google {
+        height:  40px;
+        width: 40px;
+    }
+    
+    
+    li.pinterest{
+        height:  40px;
+        width: 40px;
+    }
+
+}
