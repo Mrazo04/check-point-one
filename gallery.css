@@ -259,3 +259,60 @@ li.pinterest{
     }
 
 }
+
+@media(min-width:1900px){
+
+    h1{
+        margin-left: 35pt;
+    }
+
+    section{
+        display: grid;
+        margin-top: 110px;
+        margin-left: 419px;
+        gap: 20px;
+    }
+    
+    section img{
+        height: 230pt;
+        width: 250pt;
+    }
+
+    footer{
+        margin-top: 50px;
+        padding: 57px 0 42px;
+        width: 100vw;
+    
+    }
+    
+    span{
+        padding-left: 474px;
+    }
+    
+    ul{
+        padding-right: 362px;
+        gap: 20px;
+    }
+    
+    li.twitter {
+        height:  44px;
+        width: 44px;
+    }
+    
+    li.facebook{
+        height:  44px;
+        width: 44px;
+    }
+
+    li.google {
+        height:  44px;
+        width: 44px;
+    }
+    
+    
+    li.pinterest{
+        height:  44px;
+        width: 44px;
+    }
+
+}
