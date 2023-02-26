@@ -640,7 +640,59 @@ li.pinterest{
     img.showCase{
         height: 230pt;
         width: 250pt;
-        border: 2px solid #f2f2f0;
     }
 
+}
+
+@media (min-width: 1900px){
+    .left{
+        padding-left: 295pt;
+    }
+    
+    /* .middle is BRUNETTES */
+    .middle{
+        padding-left: 120pt;
+    }
+    
+    /* .right is WILD ONES */
+    .right{
+        margin-left: -77px;
+    }
+
+    footer{
+        margin-top: 50px;
+        padding: 57px 0 42px;
+        width: 100vw;
+    
+    }
+    
+    span{
+        padding-left: 591px;
+    }
+    
+    ul{
+        padding-right: 362px;
+        gap: 20px;
+    }
+    
+    li.twitter {
+        height:  44px;
+        width: 44px;
+    }
+    
+    li.facebook{
+        height:  44px;
+        width: 44px;
+    }
+
+    li.google {
+        height:  44px;
+        width: 44px;
+    }
+    
+    
+    li.pinterest{
+        height:  44px;
+        width: 44px;
+    }
 }
