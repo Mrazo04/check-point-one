@@ -294,5 +294,69 @@ li.pinterest{
     span {
         padding-left: 270px;
     }
+
+}
+
+@media(min-width:1900px){
+
+    h1{
+        margin-left: 634pt;
+    }
+
+    section{
+        width: 855px;
+        margin-top: 30px;
+        margin-left: 519px;
+    }
+
+    section img {
+        height: 279px;
+    }
+
+    p.title {
+        font-size: 30px;
+    }
+
+    button{
+        height: 41px;
+        width: 118px;
+        margin-top: 32px;
+    }
     
+    footer{
+        margin-top: 50px;
+        padding: 57px 0 42px;
+        width: 100vw;
+    
+    }
+    
+    span{
+        padding-left: 591px;
+    }
+    
+    ul{
+        padding-right: 362px;
+        gap: 20px;
+    }
+    
+    li.twitter {
+        height:  44px;
+        width: 44px;
+    }
+    
+    li.facebook{
+        height:  44px;
+        width: 44px;
+    }
+
+    li.google {
+        height:  44px;
+        width: 44px;
+    }
+    
+    
+    li.pinterest{
+        height:  44px;
+        width: 44px;
+    }
 }
