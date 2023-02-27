@@ -163,3 +163,18 @@ li.pinterest{
         width: 40px;
     }
 }
+
+@media(min-width:1200px){
+    footer {
+        margin-top: 133px;
+    }
+
+    span {
+        padding-left: 174px;
+    }
+
+    ul {
+        margin-right: 220px;
+        gap: 18px;
+    }
+}
