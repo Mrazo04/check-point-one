@@ -207,3 +207,36 @@ li.pinterest{
         width: 40px;
     }
 }
+
+@media(min-width:800px){
+    h1{
+        margin-left: 211pt;
+    } 
+
+    section {
+        margin-left: 113px;
+        width: 570px;
+    }
+    section img {
+        height: 177px;
+    }
+
+    p.title {
+        padding-top: 38px;
+    }
+
+    footer{
+        margin-top: 164px;        
+    }
+    
+    span{
+        padding-top: 10px;
+        padding-left: 71px;
+    }
+    
+    ul{
+        padding-right: 0px;
+        margin-right: 71px;
+        gap: 9px;
+    }
+}
