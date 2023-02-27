@@ -280,3 +280,19 @@ li.pinterest{
         gap: 18px;
     }
 }
+
+@media(min-width:1500px){
+
+    h1 {
+        margin-left: 480pt;
+    }
+
+    section {
+        margin-left: 336px;
+    }
+
+    span {
+        padding-left: 270px;
+    }
+    
+}
