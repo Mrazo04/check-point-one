@@ -32,9 +32,14 @@ a{
 /* Below is everything within gridContainer */
 /* 5 columns and 4 rows */
 .gridContainer{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%; */
+    /* since you only have two elements in this .gridContainer,
+    I'd make this a flex. that way you can center it better. */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /* GALLERY text */
 h1{
@@ -54,7 +59,7 @@ h1{
 section{
     display: grid;
     margin-top: 110px;
-    margin-left: 419px;
+    /* margin-left: 419px; */
     gap: 20px;
 }
 
@@ -173,7 +178,7 @@ li.pinterest{
 
     section {
         margin-top: 111px;
-        margin-left: 51px;
+        /* margin-left: 51px; */
     }
 
     footer {
@@ -225,7 +230,7 @@ li.pinterest{
     }
     
     section {
-        margin-left: 92px;
+        /* margin-left: 92px; */
     }
 
     footer{
@@ -255,7 +260,7 @@ li.pinterest{
     }
     
     section {
-        margin-left: 207px;
+        /* margin-left: 207px; */
     }
 
 }
@@ -269,7 +274,7 @@ li.pinterest{
     section{
         display: grid;
         margin-top: 110px;
-        margin-left: 419px;
+        /* margin-left: 419px; */
         gap: 20px;
     }
     
